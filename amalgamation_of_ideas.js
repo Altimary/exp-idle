@@ -6,7 +6,7 @@ import { Utils                                    } from "./api/Utils";
 
 var id          = "amalgamation_of_ideas";
 var name        = "Amalgamation of Ideas";
-var description = "A very random theory that I created without prior JavaScript knowledge (Me main Python).\n\nFairly balanced up to Infinity (Standard: for a 3-day completion theory).\nRemember to always check permanent tab in case you missed something (when things get slow).\n\nI hope you have fun (for the impending monstrocity that I've created).";
+var description = "A very random theory that I created without prior JavaScript knowledge (Me main Python).\n\nFairly balanced up to Infinity (Standard: for a 3-day completion theory).\nRemember to always check permanent tab in case you missed something (when things get slow).\n\nI hope you have fun (for the impending monstrocity that I've created).\n\nA refined version can be found here\n\nhttps://raw.githubusercontent.com/Altimary/exp-idle/refs/heads/main/amalgamation_of_ideas_new.js";
 var authors     = "Altimary";
 var version     = 1;
 
@@ -640,5 +640,6 @@ var GetSpeedUp = () => {
         const AExp = 1 + BigNumber.from(preLog).log10() / BigNumber.from(10 - perm5.level * 0.5).log10();
         return BigNumber.from(1.125).pow(BigNumber.from(AExp).square())};
 };
+
 
 init(); //  - BigNumber.from(perm5.level)
